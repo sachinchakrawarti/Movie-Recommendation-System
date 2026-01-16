@@ -1,11 +1,14 @@
 import React from "react";
+import Navbar from "./layout/navbar/Navbar";
+import Footer from "./layout/footer/Footer";
+import Approutes from "./routes/Approutes";
 
 export default function App() {
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gray-100">
-      <h1 className="text-4xl font-bold text-blue-600">
-        Movie Recommendation System
-      </h1>
-    </div>
+    <>
+      <Navbar />
+      <Approutes />
+      <Footer />
+    </>
   );
 }
