@@ -1,6 +1,6 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import HomePage from "./pages/HomePage"; // Ensure this is imported!
+import HomePage from "../pages/homepage/Homepage"; // Ensure this is imported!
 
 const Approutes = () => {
   return (
